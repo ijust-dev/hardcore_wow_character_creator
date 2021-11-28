@@ -1,6 +1,6 @@
 const Layout = ({ children }) => {
     return (
-        <div className="content bg-black w-full">
+        <div className="content bg-black justify-center flex min-h-screen w-full">
             { children }
         </div>
     );

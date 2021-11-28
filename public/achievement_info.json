@@ -1,0 +1,251 @@
+{
+  "achievements": [
+    {
+      "name": "Humanist",
+      "url": "/images/achievement/humanist.png",
+      "string": "Complete the Hardcore challenge without at any point killing an NPC of the type Humanoid. Killing is considered any action that gives your character kill credit (experience, eligibility to loot, or quest progress)."
+    },
+    {
+      "name": "Animal friend",
+      "url": "/images/achievement/animalfriend.png",
+      "string": "Complete the Hardcore challenge without at any point killing an NPC of the type Beast. Killing is considered any action that gives your character kill credit (experience, eligibility to loot, or quest progress)."
+    },
+    {
+      "name": "Power from Within",
+      "url": "/images/achievement/nowbuffs.png",
+      "string": "Complete the Hardcore challenge without getting any World Buffs. If you get a World Buff by accident, click it off as soon as possible."
+    },
+    {
+      "name": "Nudist",
+      "url": "/images/achievement/nudist.png",
+      "string": "Complete the Hardcore challenge naked (no armor, no amulets, no rings, and no trinkets). Weapons, shields, and bags are allowed. Upon logging in, unequip every armor piece."
+    },
+    {
+      "name": "Scavenger",
+      "url": "/images/achievement/scavenger.png",
+      "string": "Complete the Hardcore challenge without at any point using, consuming, or equipping an item that you have not looted from a mob, chest, or loot container, or crafted or conjured yourself."
+    },
+    {
+      "name": "Grounded",
+      "url": "/images/achievement/grounded.png",
+      "string": "Complete the Hardcore challenge without at any point using a mount, flight path, or portal. Zeppelins and ships can be used."
+    },
+    {
+      "name": "White Knight",
+      "url": "/images/achievement/wowhc_armor.png",
+      "string": "Complete the Hardcore challenge without at any point equipping an item that is of Green, Blue, or Purple quality. Only White and Gray items are allowed. Bags are equipped items."
+    },
+    {
+      "name": "Vagrant",
+      "url": "/images/achievement/vagrant.png",
+      "string": "Complete the Hardcore challenge without at any point using the Bank or a Hearthstone. No item can be stored in your character’s bank account."
+    },
+    {
+      "name": "Solitary Struggle",
+      "url": "/images/achievement/struggle.png",
+      "string": "Complete the Hardcore challenge without at any point joining a group for a dungeon. Entering a dungeon alone is allowed."
+    },
+    {
+      "name": "Bloodbath",
+      "url": "/images/achievement/bloodbath.png",
+      "string": "Complete the Hardcore challenge without at any point completing a quest. No exceptions."
+    },
+    {
+      "name": "Ephermeral",
+      "url": "/images/achievement/no-armor.png",
+      "string": "Complete the Hardcore challenge without at any point repairing the Durability of an item. The Repair function of NPCs is not allowed to be used."
+    },
+    {
+      "name": "Tunnel Vision",
+      "url": "/images/achievement/tunnelvision.png",
+      "string": "Complete the Hardcore challenge entirely in first person view. Upon logging in, zoom your camera into first person and never zoom out again."
+    },
+    {
+      "name": "Insane in the Membrane",
+      "url": "/images/achievement/insane.png",
+      "string": "Complete the Hardcore challenge on a PvP or RPPvP realm. Dying to enemy players does count as a death."
+    },
+    {
+      "name": "Nobody Got Time for That",
+      "url": "/images/achievement/masterofnone.png",
+      "string": "Complete the Hardcore challenge without learning or using any professions. Secondary professions such as Cooking, Fishing and First Aid are not allowed."
+    },
+    {
+      "name": "Self-Made",
+      "url": "/images/achievement/selfmade.png",
+      "string": "Complete the Hardcore challenge without at any point equipping an item that you have not crafted yourself. Items your character has conjured (e.g. Firestones) are considered crafted."
+    },
+    {
+      "name": "Not So Talented",
+      "url": "/images/achievement/notsotalented.png",
+      "string": "Complete the Hardcore challenge without at any point applying a talent point. No talents are allowed."
+    },
+    {
+      "name": "No Health Potions",
+      "url": "/images/achievement/no-hp-pots.png",
+      "string": "Complete the Hardcore challenge without at any point consuming a health potion (items with ‘Healing Potion’ in their name)."
+    },
+    {
+      "name": "Homebound",
+      "url": "/images/achievement/homebound.png",
+      "string": "Complete the Hardcore challenge without at any point leaving the continent on which your character has started."
+    }
+  ],
+  "class_achievements": [
+    {
+      "Hunter": [
+        {
+          "name": "Mortal Pet",
+          "url": "/images/class_achievement/hunter/mortal_pet.png",
+          "string": "Complete the Hardcore challenge without at any point resurrecting your pet. If your pet dies for any reason, you have to release it and tame another one."
+        },
+        {
+          "name": "Close Combat",
+          "url": "/images/class_achievement/hunter/close_combat.png",
+          "string": "Complete the Hardcore challenge without at any point using a ranged weapon attack (any ability requiring a ranged weapon to be equipped). Upon logging in, unequip your ranged weapon and quiver and never equip a new one."
+        },
+        {
+          "name": "Lone Wolf",
+          "url": "/images/class_achievement/hunter/lone_wolf.png",
+          "string": "Complete the Hardcore challenge without at any point taming a Hunter pet. Items and quests that make you spawn companions are allowed."
+        }
+      ],
+      "Mage": [
+        {
+          "name": "Pyromancer",
+          "url": "/images/class_achievement/mage/pyromancer.png",
+          "string": "Complete the Hardcore challenge using only abilities within the “Fire” (and “General”) tab of your spellbook. No spells outside of those listed under “Fire” or “General” are allowed."
+        },
+        {
+          "name": "Cryomancer",
+          "url": "/images/class_achievement/mage/cryomancer.png",
+          "string": "Complete the Hardcore challenge using only abilities within the “Frost” (and “General”) tab of your spellbook. No spells outside of those listed under “Frost” or “General” are allowed."
+        },
+        {
+          "name": "Arcanist",
+          "url": "/images/class_achievement/mage/arcanist.png",
+          "string": "Complete the Hardcore challenge using only abilities within the “Arcane” (and “General”) tab of your spellbook. No spells outside of those listed under “Arcane” or “General” are allowed."
+        }
+      ],
+      "Warlock": [
+        {
+          "name": "Imp Master",
+          "url": "/images/class_achievement/warlock/imp_master.png",
+          "string": "Complete the Hardcore challenge without at any point summoning a demon other than the Imp."
+        },
+        {
+          "name": "Felfire",
+          "url": "/images/class_achievement/warlock/felfire.png",
+          "string": "Complete the Hardcore challenge without at any point using an ability that deals damage other than Fire. Spells and Demon abilities that deal Shadow damage are not allowed. All items and consumables that deal damage other than Fire are allowed."
+        },
+        {
+          "name": "Shadow Embrace",
+          "url": "/images/class_achievement/warlock/shadow_embrace.png",
+          "string": "Complete the Hardcore challenge without at any point using an ability that deals damage other than Shadow. Spells and Demon abilities that deal Fire damage are not allowed. All items and consumables that deal damage other than Shadow are allowed."
+        }
+      ],
+      "Shaman": [
+        {
+          "name": "Totemic Misery",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point summoning a Totem."
+        },
+        {
+          "name": "Thunderstruck",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point using an ability that deals damage other than Nature. Spells, weapon enhancements, or totems that deal Fire or Frost damage are not allowed. All items and consumables that deal damage other than Nature are allowed."
+        },
+        {
+          "name": "Shocked",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point using an ability with a cast time. Only instant spells are allowed. If Nature’s Swiftness makes a spell instant, that spell is allowed to be cast. All items with a cast time (e.g. Hearthstones) are allowed."
+        }
+      ],
+      "Rogue": [
+        {
+          "name": "I can see you",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point using Stealth, Shadowmeld or Vanish. Invisibility potions are allowed."
+        },
+        {
+          "name": "Not so deadly",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point using Poisons. Sharpening stones, weapon oils, enchants, and other weapon enhancements are allowed. Create Blinding Powder is a Poisons ability and as such not allowed. Blinding Powder acquired through other means (e.g. Pick Pocket) can be used."
+        },
+        {
+          "name": "Shivved",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point equipping a melee weapon other than Daggers."
+        }
+      ],
+      "Warrior": [
+        {
+          "name": "Tied Hands",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point using a stance other than Battle Stance. Switching to Defensive Stance or Berserker Stance is not allowed."
+        },
+        {
+          "name": "Sword and Board",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point wielding a two-handed melee weapon or dual wielding. If your race starts with a two-handed weapon, unequip it upon logging in."
+        },
+        {
+          "name": "Berserker",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point equipping Mail or Plate armor or a Shield. Only cloth and leather armor are allowed. If your race starts with a Shield, unequip it upon logging in."
+        }
+      ],
+      "Druid": [
+        {
+          "name": "Druid of the Claw",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point using an ability within the “Balance” tab of your spellbook or using any form other than Bear Form or Dire Bear Form. Only spells listed under “Feral Combat”, “Restoration”, or “General” are allowed. Travel Form and Aquatic Form are not allowed."
+        },
+        {
+          "name": "Naturalist",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point using a shape shifting ability. Travel Form and Aquatic Form are not allowed. Items and quests that make you change your form are allowed."
+        },
+        {
+          "name": "Unrestored",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point using an ability within the “Restoration” tab of your spellbook. Only spells listed under “Feral Combat”, “Balance”, or “General” are allowed."
+        }
+      ],
+      "Priest": [
+        {
+          "name": "True believer",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point using an ability within the “Shadow Magic” tab of your spellbook. Only spells listed under “Holy”, “Discipline”, or “General” are allowed."
+        },
+        {
+          "name": "Void Servant",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point using an ability within the “Holy” tab of your spellbook. Only spells listed under “Shadow Magic”, “Discipline”, or “General” are allowed."
+        },
+        {
+          "name": "Pacifist",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point wielding a weapon. One-handed weapons, staves, and wands are not allowed. Upon logging in, unequip your weapon and never equip a new one. All off-hand items and fishing poles are allowed."
+        }
+      ],
+      "Paladin": [
+        {
+          "name": "Not the blessed run",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point using a Blessing or Aura spell."
+        },
+        {
+          "name": "Hammertime",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point equpping a melee weapon other than a two-handed mace."
+        },
+        {
+          "name": "No way out",
+          "url": "/images/class_achievement/generic.png",
+          "string": "Complete the Hardcore challenge without at any point using an immunity spell. Divine Shield, Divine Protection, Blessing of Protection, and Blessing of Freedom are not allowed."
+        }
+      ]
+    }
+  ]
+}
