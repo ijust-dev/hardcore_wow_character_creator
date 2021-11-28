@@ -6,7 +6,7 @@ export default function class_button(props) {
             <Image
                 className={props.active == true ? 'grayscale-0 saturate-200' : 'grayscale saturate-0'}
                 name={props.name}
-                src={"/images/class/" + props.name + ".png"}
+                src={"/images/class/" + props.name.toLowerCase() + ".png"}
                 width={85}
                 height={85}
                 alt={props.name + " class Icon"}
