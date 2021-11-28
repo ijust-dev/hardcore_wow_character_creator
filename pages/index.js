@@ -31,7 +31,7 @@ export default class class_display extends React.Component {
       <div className="flex">
         <Head>
           <title>{this.state.class !== "na" ? "Hardcore - " + this.state.class : "Hardcore Character Creator"}</title>
-          <link rel="icon" href={this.state.class !== "na" ? "/images/class/" + this.state.class + ".png" : "/images/class/rogue.png"} />
+          <link rel="icon" href={this.state.class !== "na" ? "/images/class/" + this.state.class.toLowerCase() + ".png" : "/images/class/rogue.png"} />
         </Head>
 
         <main onClick={this.getCurrentClass} className="flex flex-col items-center text-center text-white">
