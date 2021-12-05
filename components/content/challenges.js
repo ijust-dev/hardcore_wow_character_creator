@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function challenges(props) {
 
     return (
-        <div className="flex flex-row rounded-3xl justify-center h-48">
+        <div className="flex flex-row rounded-3xl justify-center mb-5">
             <div className="flex flex-col w-auto mx-3 self-start saturate-100">
                 <Image 
                     src={props.a1url}
