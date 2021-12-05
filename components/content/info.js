@@ -70,10 +70,10 @@ export default class info extends React.Component {
     render() {
         return (
             <div className={this.props.classchoice == "na" ? 'hidden' : 'visible self-start w-full rounded-t-lg mt-5'}>
-                <h2 className="text-2xl w-full mb-5">
+                <h2 className="font-header text-2xl md:text-3xl w-full mb-5">
                     {this.props.classchoice}
                 </h2>
-                <button className="border-white border-4 hover:border-gray-300 hover:text-gray-100 text-white font-bold py-2 px-4 mb-5 rounded" onClick={this.getAchievements} type="button">Generate Challenges</button>
+                <button className="font-header border-white border-4 hover:border-gray-300 hover:text-gray-100 text-white font-bold py-2 px-4 mb-5 rounded" onClick={this.getAchievements} type="button">Generate Challenges</button>
                 <div id="challenges" className="hidden">
                     <Challenges a1name={this.state.a1name} a1string={this.state.a1string} a1url={this.state.a1url} />
                     <Challenges a1name={this.state.a2name} a1string={this.state.a2string} a1url={this.state.a2url} />

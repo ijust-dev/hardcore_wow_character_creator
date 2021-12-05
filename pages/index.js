@@ -33,10 +33,13 @@ export default class class_display extends React.Component {
         <Head>
           <title>{this.state.class !== "na" ? "Hardcore - " + this.state.class : "Hardcore Character Creator"}</title>
           <link rel="icon" href={this.state.class !== "na" ? "/images/class/" + this.state.class.toLowerCase() + ".png" : "/images/class/rogue.png"} />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Heebo:wght@800&display=swap" rel="stylesheet" />
         </Head>
 
         <main onClick={this.getCurrentClass} className="flex flex-col items-center text-center text-white">
-          <h1 className="text-3xl md:text-4xl mt-5">Hardcore Character Creator</h1>
+          <h1 className="font-header text-3xl md:text-4xl mt-5">Hardcore Character Creator</h1>
           <ClassDisplay classchoice={this.state.class}/>
           <ClassInfo classchoice={this.state.class} />
         </main>
