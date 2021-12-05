@@ -99,7 +99,7 @@ export default class class_display extends React.Component {
     render() {
 
         return (
-            <div onClick={this.handleClick} classchoice={this.props.classchoice} className="flex flex-wrap justify-center sm:w-7/12 md:w-full mt-5">
+            <div onClick={this.handleClick} classchoice={this.props.classchoice} className="grid grid-cols-3 justify-center sm:flex sm:flex-wrap sm:w-7/12 md:w-full mt-5">
                 <Wowclass active={this.state.druidclassSelected} name="Druid"/>
                 <Wowclass active={this.state.hunterclassSelected} name="Hunter"/>
                 <Wowclass active={this.state.mageclassSelected} name="Mage"/>

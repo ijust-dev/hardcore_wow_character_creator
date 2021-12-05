@@ -36,7 +36,6 @@ export default class info extends React.Component {
             let random1 = Math.floor(Math.random() * data.achievements.length);
             let random2 = Math.floor(Math.random() * data.achievements.length);
             let random3 = Math.floor(Math.random() * data.achievements.length);
-
             let random4 = Math.floor(Math.random() * data.class_achievements[0][this.props.classchoice].length);
 
             // Prevents each random number from being the same.

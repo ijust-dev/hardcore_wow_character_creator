@@ -27,10 +27,11 @@ export default class class_display extends React.Component {
   }
 
   render() {
+
     return (
       <div className="flex">
         <Head>
-          <title>{this.state.class !== "na" ? "Hardcore - " + this.state.class.toLowerCase() : "Hardcore Character Creator"}</title>
+          <title>{this.state.class !== "na" ? "Hardcore - " + this.state.class : "Hardcore Character Creator"}</title>
           <link rel="icon" href={this.state.class !== "na" ? "/images/class/" + this.state.class.toLowerCase() + ".png" : "/images/class/rogue.png"} />
         </Head>
 
