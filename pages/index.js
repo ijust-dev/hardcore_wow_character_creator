@@ -32,6 +32,7 @@ export default class class_display extends React.Component {
       <div className="flex">
         <Head>
           <title>{this.state.class !== "na" ? "Hardcore - " + this.state.class : "Hardcore Character Creator"}</title>
+          <meta name="description" content="A Hardcore World of Warcraft Character Creator." />
           <link rel="icon" href={this.state.class !== "na" ? "/images/class/" + this.state.class.toLowerCase() + ".png" : "/images/class/rogue.png"} />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
